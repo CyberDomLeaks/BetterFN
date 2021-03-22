@@ -1,0 +1,32 @@
+{
+    "port": 80,
+    "xmppPort": 443,
+    "db": "mongodb://127.0.0.1",
+
+    "item": "AthenaCharacter:CID_028_Athena_Commando_F",
+    "item2": "AthenaCharacter:CID_017_Athena_Commando_M",
+    "item3": "AthenaCharacter:CID_022_Athena_Commando_F",
+    "item4": "AthenaCharacter:CID_035_Athena_Commando_M_Medieval",
+    "item5": "AthenaCharacter:CID_039_Athena_Commando_F_Disco",
+    "item6": "AthenaCharacter:CID_NPC_Athena_Commando_M_HenchmanBad",
+    "item7": "AthenaCharacter:CID_NPC_Athena_Commando_M_HenchmanGood",
+    "item8": "AthenaCharacter:CID_NPC_Athena_Commando_M_CatBurglar_Ghost",
+    "item9": "AthenaCharacter:CID_560_Athena_Commando_M_RebirthDefaultA",
+    "item10": "AthenaCharacter:CID_005_Athena_Commando_M_Default",
+
+
+    "dap1": "",
+    "dapitem1": "",
+    "dapprice1": "1000",
+
+    "dap2": "",
+    "dapitem2": "",
+    "dapprice2": "1000",
+    
+    "dap3": "",
+    "dapitem3": "",
+    "dapprice3": "1000",
+
+    "seasonStage": "default",
+    "lobbybg": "season16"
+}

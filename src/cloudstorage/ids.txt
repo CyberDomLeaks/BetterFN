@@ -1,0 +1,18 @@
+Playlist_Bodyguard_Squads
+Playlist_Bodyguard_Trios
+Playlist_Bodyguard_Duos
+
+Strings:
+
++FrontEndPlaylistData=(PlaylistName=Playlist_Bodyguard_Squads
+, PlaylistAccess=(bEnabled=true, CategoryIndex=2, DisplayPriority=748))
++FrontEndPlaylistData=(PlaylistName=Playlist_Bodyguard_Squads
+, PlaylistAccess=(bEnabled=true, CategoryIndex=2, DisplayPriority=748))
++FrontEndPlaylistData=(PlaylistName=Playlist_Bodyguard_Trios
+, PlaylistAccess=(bEnabled=true, CategoryIndex=1, DisplayPriority=839))
++FrontEndPlaylistData=(PlaylistName=Playlist_Bodyguard_Squads
+, PlaylistAccess=(bEnabled=true, CategoryIndex=2, DisplayPriority=748))
++FrontEndPlaylistData=(PlaylistName=Playlist_Bodyguard_Trios
+, PlaylistAccess=(bEnabled=true, CategoryIndex=1, DisplayPriority=839))
++FrontEndPlaylistData=(PlaylistName=Playlist_Bodyguard_Duos
+, PlaylistAccess=(bEnabled=true, CategoryIndex=2, DisplayPriority=328))
