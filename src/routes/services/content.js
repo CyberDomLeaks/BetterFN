@@ -59,8 +59,8 @@ app.get("/api/pages/fortnite-game", async (req, res) => {
                     },
                      {
                      entryType: "Text",
-                     image: "https://media.discordapp.net/attachments/813249754468581407/818994804137787402/okkkkk.png",
-                     tileImage: "https://media.discordapp.net/attachments/813249754468581407/818994804137787402/okkkkk.png",
+                     image: "https://media.discordapp.net/attachments/813249744821551144/823532589536509952/news3.png",
+                     tileImage: "https://media.discordapp.net/attachments/813249744821551144/823532589536509952/news3.png",
                      hidden: false,
                      videoMute: false,
                      tabTitleOverride: "Patch 3.0",
