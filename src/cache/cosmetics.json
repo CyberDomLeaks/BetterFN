@@ -8695,6 +8695,11 @@
         "backendType": "AthenaGlider"
     },
     {
+        "name": "Skellyfish",
+        "id": "Pickaxe_ID_567_NeonCatFashionFemale_FX9S5",
+        "backendType": "AthenaPickaxe"
+    },
+    {
         "name": "Sit",
         "id": "EID_SitPapayaComms",
         "backendType": "AthenaDance"
@@ -10410,7 +10415,7 @@
         "backendType": "AthenaGlider"
     },
     {
-        "name": "Dread Knight",
+        "name": "Grave Feather",
         "id": "CID_A_043_Athena_Commando_M_DarkMinion",
         "backendType": "AthenaCharacter"
     },
@@ -11653,6 +11658,11 @@
         "name": "No Witnesses",
         "id": "SPID_235_S15_Flapjack",
         "backendType": "AthenaSpray"
+    },
+    {
+        "name": "Cat's Paw",
+        "id": "Wrap_337_NeonCatFashion_93JRO",
+        "backendType": "AthenaItemWrap"
     },
     {
         "name": "Shadow Slicer",
@@ -17730,7 +17740,7 @@
         "backendType": "AthenaCharacter"
     },
     {
-        "name": "The Amazing Cube",
+        "name": "Amazing Cube",
         "id": "EID_PuzzleBox",
         "backendType": "AthenaDance"
     },
@@ -18668,6 +18678,11 @@
         "name": "Depth Charger",
         "id": "Pickaxe_ID_310_SubmarinerMale",
         "backendType": "AthenaPickaxe"
+    },
+    {
+        "name": "Squee",
+        "id": "BID_722_NeonCatFashion_KEP9B",
+        "backendType": "AthenaBackpack"
     },
     {
         "name": "Chapter Two, Season Two",
@@ -20080,6 +20095,11 @@
         "backendType": "AthenaBackpack"
     },
     {
+        "name": "Alli",
+        "id": "CID_A_044_Athena_Commando_F_NeonCatFashion_64JW3",
+        "backendType": "AthenaCharacter"
+    },
+    {
         "name": "Bionic Synapse",
         "id": "Pickaxe_ID_383_HandymanMale",
         "backendType": "AthenaPickaxe"
@@ -20605,7 +20625,7 @@
         "backendType": "AthenaCharacter"
     },
     {
-        "name": "T-Wrecks",
+        "name": "Chainsaur",
         "id": "Pickaxe_ID_566_DinoHunterFemale",
         "backendType": "AthenaPickaxe"
     },
