@@ -2015,6 +2015,11 @@
         "backendType": "AthenaCharacter"
     },
     {
+        "name": "Lil' Octane",
+        "id": "EID_RhymeLock_5B2Y3",
+        "backendType": "AthenaDance"
+    },
+    {
         "name": "Thor’s Stormbreaker",
         "id": "Emoji_AshtonTurbo",
         "backendType": "AthenaEmoji"
@@ -3868,6 +3873,11 @@
         "name": "Toosie Slide",
         "id": "EID_ArtGiant",
         "backendType": "AthenaDance"
+    },
+    {
+        "name": "Zooming",
+        "id": "Wrap_339_TurboCar_T7E0M",
+        "backendType": "AthenaItemWrap"
     },
     {
         "name": "Kablammo!",
@@ -8695,11 +8705,6 @@
         "backendType": "AthenaGlider"
     },
     {
-        "name": "Skellyfish",
-        "id": "Pickaxe_ID_567_NeonCatFashionFemale_FX9S5",
-        "backendType": "AthenaPickaxe"
-    },
-    {
         "name": "Sit",
         "id": "EID_SitPapayaComms",
         "backendType": "AthenaDance"
@@ -10530,6 +10535,11 @@
         "backendType": "AthenaItemWrap"
     },
     {
+        "name": "Battle Ball",
+        "id": "SPID_258_Llamarama2_EZIRR",
+        "backendType": "AthenaSpray"
+    },
+    {
         "name": "Distracted",
         "id": "EID_Chopsticks",
         "backendType": "AthenaDance"
@@ -11658,11 +11668,6 @@
         "name": "No Witnesses",
         "id": "SPID_235_S15_Flapjack",
         "backendType": "AthenaSpray"
-    },
-    {
-        "name": "Cat's Paw",
-        "id": "Wrap_337_NeonCatFashion_93JRO",
-        "backendType": "AthenaItemWrap"
     },
     {
         "name": "Shadow Slicer",
@@ -14120,6 +14125,11 @@
         "backendType": "AthenaBackpack"
     },
     {
+        "name": "Everybody Dance!",
+        "id": "MusicPack_081_RL_LlamaRama_9LRCK",
+        "backendType": "AthenaMusicPack"
+    },
+    {
         "name": "Frosty Globes",
         "id": "Pickaxe_ID_509_IceClaw1H",
         "backendType": "AthenaPickaxe"
@@ -15848,6 +15858,11 @@
         "name": "Poised Playmaker",
         "id": "CID_149_Athena_Commando_F_SoccerGirlB",
         "backendType": "AthenaCharacter"
+    },
+    {
+        "name": "Turbo Ball!",
+        "id": "BID_727_TurboBall_892OE",
+        "backendType": "AthenaBackpack"
     },
     {
         "name": "Hot & Cold",
@@ -18680,11 +18695,6 @@
         "backendType": "AthenaPickaxe"
     },
     {
-        "name": "Squee",
-        "id": "BID_722_NeonCatFashion_KEP9B",
-        "backendType": "AthenaBackpack"
-    },
-    {
         "name": "Chapter Two, Season Two",
         "id": "LSID_232_S12Key",
         "backendType": "AthenaLoadingScreen"
@@ -20095,11 +20105,6 @@
         "backendType": "AthenaBackpack"
     },
     {
-        "name": "Alli",
-        "id": "CID_A_044_Athena_Commando_F_NeonCatFashion_64JW3",
-        "backendType": "AthenaCharacter"
-    },
-    {
         "name": "Bionic Synapse",
         "id": "Pickaxe_ID_383_HandymanMale",
         "backendType": "AthenaPickaxe"
@@ -20758,6 +20763,11 @@
         "name": "Beach Ball",
         "id": "TOY_003_BeachBall",
         "backendType": "AthenaToy"
+    },
+    {
+        "name": "Llama-rama",
+        "id": "LSID_286_LlamaRama2_8ASUQ",
+        "backendType": "AthenaLoadingScreen"
     },
     {
         "name": "Winter's Wish",
