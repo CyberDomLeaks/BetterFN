@@ -7,11 +7,5 @@ After this, set your 'port' number to 80, and load up the start.bat.
 TO ACCESS IN-GAME:
 
 Go into the 'src' Folder, and go into config.json.
-After this, set your 'port' number to 5595, and load up start.bat, then launch the game with your
-email and password.
-
-TO ACCESS v16.00:
-
-Go into the 'src' Folder, and go into config.json.
 After this, set your 'port' number to 80, and load up start.bat, then launch the game with your
 email and password.
