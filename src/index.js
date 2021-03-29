@@ -68,7 +68,7 @@ setInterval(() => {
 
 app.listen(process.env.port || config.port || 5595, () => {
     logging.fdev(`Created by gamingblueshell & Fevers: Version \x1b[36m${serverversion}`)
-    logging.fdev(`To get In-Game: Set your port on "5595" in config.json \x1b[36m`)
+    logging.fdev(`To get In-Game: Set your port on "80" in config.json \x1b[36m`)
     logging.fdev(`To get an account/access website: Set your port on "80" in config.json \x1b[36m`)
     logging.fdev(`Listening on port \x1b[36m${process.env.port || config.port || 80}`)
     logging.fdev(`XMPP listening on port \x1b[36m${process.env.xmppPort || config.xmppPort || 443}`)
