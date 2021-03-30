@@ -1,4 +1,5 @@
 @echo off
+cd %appdata%\BetterFN\BetterFN-main\
 echo Installing everything you need...
 
 call .\src\install.bat
