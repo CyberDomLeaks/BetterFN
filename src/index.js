@@ -2,6 +2,7 @@ const bodyparser = require("body-parser")
 const mongoose = require("mongoose")
 const express = require("express")
 const fs = require("fs")
+const rpc = require("discord-rpc")
 const app = express()
 
 const logging = require(`${__dirname}/structs/logs`)
@@ -66,10 +67,27 @@ setInterval(() => {
     });
 }, 30000);
 
+const client = new rpc.Client({ transport: 'ipc' })
+client.on('ready', () => {
+client.request('SET_ACTIVITY', {
+pid: process.pid,
+activity : {
+details : "Made by gamingblueshell and korii!",
+assets : {
+large_image : "logo",
+large_text : "BetterFN" // THIS WILL SHOW AS "Playing <Status>" from the outisde
+},
+buttons : [{label : "Join the Discord!" , url : "https://discord.gg/czFXrMASGH"},{label : "BetterFN Website!",url : "https://betterfn.tk/"}]
+}
+})
+})
+client.login({ clientId : "826209329962942544" }).catch(console.error);
+
 app.listen(process.env.port || config.port || 5595, () => {
-    logging.fdev(`Created by gamingblueshell & Fevers: Version \x1b[36m${serverversion}`)
+    logging.fdev(`Created by gamingblueshell & korii: Version \x1b[36m${serverversion}`)
     logging.fdev(`To get In-Game: Set your port on "80" in config.json \x1b[36m`)
     logging.fdev(`To get an account/access website: Set your port on "80" in config.json \x1b[36m`)
     logging.fdev(`Listening on port \x1b[36m${process.env.port || config.port || 80}`)
     logging.fdev(`XMPP listening on port \x1b[36m${process.env.xmppPort || config.xmppPort || 443}`)
+    logging.fdev(`Started Discord RPC`)
 })
