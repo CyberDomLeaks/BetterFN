@@ -42,7 +42,10 @@ cls
 TITLE Server running
 cd src
 run.bat
-exit
+echo Woops! Something wrong happened
+echo If it says you are missing modules please download them
+echo Create a ticket if you need help
+pause >Nul
 
 :Item_3
 cd src
