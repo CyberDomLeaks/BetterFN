@@ -68,3 +68,9 @@ cd src
 cd public
 cd files
 Version.bat
+
+:Item_8
+cd src
+cd public
+cd files
+easyinstaller.exe
