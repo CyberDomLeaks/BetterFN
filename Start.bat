@@ -73,10 +73,12 @@ Version.bat
 :Item_8
 echo Note:
 echo custom textures/meshes work on 14.30.
+echo Made by kyiro.
 timeout 5 /nobreak >Nul
 echo Press any button to continue.
 pause >Nul
 cls
+title EasyInstaleler - BetterFN
 cd src
 cd public
 cd files
