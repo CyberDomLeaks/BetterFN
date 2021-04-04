@@ -73,4 +73,4 @@ Version.bat
 cd src
 cd public
 cd files
-easyinstaller.exe
+EasyInstaller.exe
