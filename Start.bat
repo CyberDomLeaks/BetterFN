@@ -25,6 +25,7 @@ echo 4. Website
 echo 5. Sign Up
 echo 6. Owners Credits, socials
 echo 7. Open Launcher
+echo 8. Open EasyInstaller
 echo Support a Creator Code: CEPTNITE10
 echo.
 set /p x=Pick: 
@@ -70,6 +71,12 @@ cd files
 Version.bat
 
 :Item_8
+echo Note:
+echo custom textures/meshes work on 14.30.
+timeout 5 /nobreak >Nul
+echo Press any button to continue.
+pause >Nul
+cls
 cd src
 cd public
 cd files
