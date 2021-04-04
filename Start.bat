@@ -78,7 +78,7 @@ timeout 5 /nobreak >Nul
 echo Press any button to continue.
 pause >Nul
 cls
-title EasyInstaleler - BetterFN
+title EasyInstaller - BetterFN
 cd src
 cd public
 cd files
