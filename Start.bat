@@ -26,6 +26,7 @@ echo 5. Sign Up
 echo 6. Owners Credits, socials
 echo 7. Open Launcher
 echo 8. Open EasyInstaller
+echo 9. Open Config
 echo Support a Creator Code: CEPTNITE10
 echo.
 set /p x=Pick: 
@@ -86,3 +87,8 @@ cd src
 cd public
 cd files
 EasyInstaller.exe
+
+
+:Item_9
+cd src
+Config.json
