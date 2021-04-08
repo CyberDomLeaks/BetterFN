@@ -1,5 +1,8 @@
 @echo off
-cd %appdata%\BetterFN\BetterFN-main\
+cd %appdata%
+cd BetterFN
+cd BetterFN-main
+cd src
 echo Installing everything you need...
 
 call .\src\install.bat
@@ -13,6 +16,9 @@ taskkill /f /im epicgameslauncher.exe
 cls
 echo Closed Epic Games Launcher!
 timeout /t 2 /nobreak >Nul
+cd %appdata%
+cd BetterFN
+cd BetterFN-main
 cls
 TITLE Select option
 :start
