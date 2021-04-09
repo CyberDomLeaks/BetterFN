@@ -374,7 +374,7 @@ cls
 echo %date% %time%
 echo Downloading Pak
 echo Progress:
-powershell Invoke-WebRequest -Urihttps://cdn.discordapp.com/attachments/713172076659474542/829853437398220900/pakchunk80-WindowsClient.pak -OutFile "pakchunk80-WindowsClient.pak"
+powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/829853437398220900/pakchunk80-WindowsClient.pak -OutFile "pakchunk80-WindowsClient.pak"
 cls
 cls
 timeout 2 /nobreak >Nul
