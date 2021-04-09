@@ -190,6 +190,10 @@ echo.
 echo 1. Zylox Custom Pak Bundle
 echo.
 echo 2. Butter Barn Emote (Swaps for Island Vibes)
+echo.
+echo 3. BetterFN Stuff
+echo.
+echo 4. DaBaby
 echo ---------------------------
 echo.
 echo 18+ type 18+ to continue.
@@ -198,15 +202,93 @@ echo ---------------------------
 set /p pick=Pick: 
 IF '%pick%' == '1' GOTO zylox
 IF '%pick%' == '2' GOTO barn
+IF '%pick%' == '3' GOTO bfn
+IF '%pick%' == '3' GOTO dababy
 IF '%pick%' == '18+' GOTO 18
 IF '%pick%' == 'discord' GOTO mod_discord
 
 
 
+:dababy
+echo Made by Archie, PeenkLion.
+echo.
+echo.
+cls
+echo 1. Convert
+echo 2. Revert
+set /p pick2=Pick: 
+IF '%pick2%' == '1' GOTO dababyConvert
+IF '%pick2%' == '2' GOTO dababyRevert
+
+
+:dababyConvert
+timeout 3 /nobreak >Nul
+cls
+echo %date% %time% /t
+echo Downloading sig
+echo Progress:
+powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/829809540257284216/pakchunk56-WindowsClient.sig -OutFile "pakchunk57-WindowsClient.sig"
+powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/829809540257284216/pakchunk56-WindowsClient.sig -OutFile "pakchunk58-WindowsClient.sig"
+
+cls
+echo %date% %time% /t
+echo Downloading Pak
+echo Progress:
+powershell Invoke-WebRequest -Uri  https://download1489.mediafire.com/ntn0i4rpxl3g/kefmosicmk5jz12/pakchunk57-WindowsClient.pak -OutFile "pakchunk57-WindowsClient.pak"
+powershell Invoke-WebRequest -Uri  https://cdn.discordapp.com/attachments/713172076659474542/830146581407596624/pakchunk58-WindowsClient.pak -OutFile "pakchunk58-WindowsClient.pak"
+cls
+cls
+timeout 2 /nobreak >Nul
+start %appdata%\BetterFN\BetterFN-main\src\public\files\converted.vbs
+exit
+
+
+:dababyRevert
+cls
+del pakchunk57-WindowsClient.sig
+del pakchunk58-WindowsClient.sig
+del pakchunk57-WindowsClient.pak
+del pakchunk58-WindowsClient.pak
+cls
+timeout 2 /nobreak >Nul
+start %appdata%\BetterFN\BetterFN-main\src\public\files\reverted.vbs
+exit
+
 :mod_discord
 start https://discord.gg/CB53H8JF9J
 exit
 
+
+:bfn
+echo Made by Archie, PeenkLion
+echo.
+echo.
+cls
+echo 1. Convert
+echo 2. Revert
+set /p pick2=Pick: 
+IF '%pick2%' == '1' GOTO bfnConvert
+IF '%pick2%' == '2' GOTO bfnRevert
+
+
+:bfnConvert
+timeout 3 /nobreak >Nul
+cls
+echo %date% %time% /t
+echo Downloading sig
+echo Progress:
+powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/829809540257284216/pakchunk56-WindowsClient.sig -OutFile "pakchunk23-WindowsClient.sig"
+
+cls
+echo %date% %time% /t
+echo Downloading Pak
+echo Progress:
+powershell Invoke-WebRequest -Uri  https://download1487.mediafire.com/xjktwhyonftg/ws1g0pfoydld20m/pakchunk23-WindowsClient.pak-WindowsClient.pak -OutFile "pakchunk23-WindowsClient.pak"
+cls
+cls
+timeout 2 /nobreak >Nul
+start %appdata%\BetterFN\BetterFN-main\src\public\files\converted.vbs
+exit
 
 
 :zylox
@@ -225,13 +307,13 @@ IF '%pick2%' == '2' GOTO ZyloxRevert
 :ZyloxConvert
 timeout 3 /nobreak >Nul
 cls
-echo %date% %time%
+echo %date% %time% /t
 echo Downloading sig
 echo Progress:
 powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/829809540257284216/pakchunk56-WindowsClient.sig -OutFile "pakchunk56-WindowsClient.sig"
 
 cls
-echo %date% %time%
+echo %date% %time% /t
 echo Downloading Pak
 echo Progress:
 powershell Invoke-WebRequest -Uri https://download1334.mediafire.com/qaod4g2aa0rg/oxe68wmei7eqe5b/pakchunk56-WindowsClient.pak -OutFile "pakchunk56-WindowsClient.pak"
@@ -252,6 +334,15 @@ timeout 2 /nobreak >Nul
 start %appdata%\BetterFN\BetterFN-main\src\public\files\reverted.vbs
 exit
 
+
+:bfnRevert
+cls
+del pakchunk23-WindowsClient.pak
+del pakchunk23-WindowsClient.sig
+cls
+timeout 2 /nobreak >Nul
+start %appdata%\BetterFN\BetterFN-main\src\public\files\reverted.vbs
+exit
 
 
 
@@ -310,17 +401,19 @@ IF '%pick51%' == '1' GOTO moanConvert
 IF '%pick51%' == '2' GOTO moanRevert
 
 
+
+
 :moanConvert
 cls
 timeout 3 /nobreak >Nul
 cls
-echo %date% %time%
+echo %date% %time% /t
 echo Downloading sig
 echo Progress:
 powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/829809540257284216/pakchunk56-WindowsClient.sig -OutFile "pakchunk69-WindowsClient.sig"
 
 cls
-echo %date% %time%
+echo %date% %time% /t
 echo Downloading Pak
 echo Progress:
 powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/829825750285811742/pakchunk69-WindowsClient.pak -OutFile "pakchunk69-WindowsClient.pak"
@@ -363,15 +456,26 @@ IF '%pick60%' == '2' GOTO barnRevert
 
 
 
+:barnRevert
+cls
+del pakchunk80-WindowsClient.sig
+del pakchunk80-WindowsClient.pak
+cls
+timeout 2 /nobreak >Nul
+start %appdata%\BetterFN\BetterFN-main\src\public\files\reverted.vbs
+exit
+
+
+
 :barnConvert
 cls
-echo %date% %time%
+echo %date% %time% /t
 echo Downloading sig
 echo Progress:
 powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/829809540257284216/pakchunk56-WindowsClient.sig -OutFile "pakchunk80-WindowsClient.sig"
 
 cls
-echo %date% %time%
+echo %date% %time% /t
 echo Downloading Pak
 echo Progress:
 powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/829853437398220900/pakchunk80-WindowsClient.pak -OutFile "pakchunk80-WindowsClient.pak"
@@ -379,4 +483,55 @@ cls
 cls
 timeout 2 /nobreak >Nul
 start %appdata%\BetterFN\BetterFN-main\src\public\files\converted.vbs
+exit
+
+
+
+
+:wild
+echo Made by Archie
+echo Found in Modding Community discord server.
+echo.
+echo.
+cls
+echo 1. Convert
+echo 2. Revert
+set /p pick2=Pick: 
+IF '%pick2%' == '1' GOTO wildConvert
+IF '%pick2%' == '2' GOTO wildRevert
+
+
+
+
+
+:wildConvert
+cls
+echo %date% %time% /t
+echo Downloading sig
+echo Progress:
+powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/829809540257284216/pakchunk56-WindowsClient.sig -OutFile "pakchunk55-WindowsClient.sig"
+
+cls
+echo %date% %time% /t
+echo Downloading Pak
+echo Progress:
+powershell Invoke-WebRequest -Uri https://cdn.discordapp.com/attachments/713172076659474542/830081956589862922/pakchunk55-WindowsClient.pak -OutFile "pakchunk55-WindowsClient.pak"
+cls
+cls
+timeout 2 /nobreak >Nul
+start %appdata%\BetterFN\BetterFN-main\src\public\files\converted.vbs
+exit
+
+
+
+
+
+
+:wildRevert
+cls
+del pakchunk55-WindowsClient.pak
+del pakchunk55-WindowsClient.sig
+cls
+timeout 2 /nobreak >Nul
+start %appdata%\BetterFN\BetterFN-main\src\public\files\reverted.vbs
 exit
