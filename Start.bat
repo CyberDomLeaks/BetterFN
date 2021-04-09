@@ -365,8 +365,6 @@ IF '%pick60%' == '2' GOTO barnRevert
 
 :barnConvert
 cls
-timeout 3 /nobreak >Nul
-cls
 echo %date% %time%
 echo Downloading sig
 echo Progress:
