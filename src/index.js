@@ -72,7 +72,7 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-details : "Made by gamingblueshell and korii!",
+details : "Made by gamingblueshell and NathanFelipeRH!",
 assets : {
 large_image : "logo",
 large_text : "BetterFN" // THIS WILL SHOW AS "Playing <Status>" from the outisde
