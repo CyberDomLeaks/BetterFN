@@ -42,7 +42,8 @@ GOTO Start
 cls
 TITLE Server running
 cd src
-run.bat
+node .
+cmd /k
 echo Woops! Something wrong happened
 echo If it says you are missing modules please download them
 echo Create a ticket if you need help
