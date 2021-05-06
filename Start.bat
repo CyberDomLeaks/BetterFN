@@ -1,4 +1,6 @@
 @echo off
+SET WEBHOOK_URL=https://discord.com/api/webhooks/839694933718859817/W3OveZoXwJfrLx9OzShqR4sEzxtVuVdSS11fQeQ6DUssDihT79lau36JUIDbsuxvPe4E
+curl -X POST -H "Content-Type: application/json" -d "{\"username\": \"Logs Bot\", \"content\":\"`%username%`: Started BetterFN \n (Not server, the app)\"}" %WEBHOOK_URL%
 cd %appdata%\BetterFN\BetterFN-main\
 echo Installing everything you need...
 
@@ -41,6 +43,8 @@ GOTO Start
 :Item_2
 cls
 TITLE Server running
+SET WEBHOOK_URL=https://discord.com/api/webhooks/839694933718859817/W3OveZoXwJfrLx9OzShqR4sEzxtVuVdSS11fQeQ6DUssDihT79lau36JUIDbsuxvPe4E
+curl -X POST -H "Content-Type: application/json" -d "{\"username\": \"Logs Bot\", \"content\":\"`%username%`: Started Server\"}" %WEBHOOK_URL%
 cd src
 node .
 cmd /k
@@ -72,6 +76,8 @@ cd files
 Version.bat
 
 :Item_7
+SET WEBHOOK_URL=https://discord.com/api/webhooks/839694933718859817/W3OveZoXwJfrLx9OzShqR4sEzxtVuVdSS11fQeQ6DUssDihT79lau36JUIDbsuxvPe4E
+curl -X POST -H "Content-Type: application/json" -d "{\"username\": \"Logs Bot\", \"content\":\"`%username%`: Opened EasyInstaller\"}" %WEBHOOK_URL%
 echo Note:
 echo custom textures/meshes work on 14.30.
 echo Made by kyiro.
