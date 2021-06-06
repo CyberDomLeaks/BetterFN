@@ -2,15 +2,15 @@
 cls
 color 3
 echo What version will you be using?
-echo Notice: Latest version matchmaking not enabled.
-echo 1. Latest
+echo Notice: Latest is not supported!
+echo 1. 15.50
 echo 2. Older
 set /p x=Pick: 
 IF '%x%' == '%x%' GOTO Item_%x%
 
 
 :Item_1
-cd Launcher2
+cd Launcher3
 start RiftLauncher.exe
 exit
 
